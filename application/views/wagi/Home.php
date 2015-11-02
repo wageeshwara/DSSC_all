@@ -29,7 +29,7 @@
                     </section>
                     <section class="col-lg-6 connectedSortable">
                         <div class="info-box">
-                            <a href=<?php echo base_url("controller_table"); ?>><span class="info-box-icon bg-white"><i
+                            <a href=<?php echo base_url("controller_table"); ?>><span class="info-box-icon bg-gray "><i
                                         class="fa fa-edit "></i></span></a>
 
                             <div class="info-box-content">
@@ -56,7 +56,7 @@
                     <section class="col-lg-6 connectedSortable">
                         <div class="info-box">
                             <a href=<?php echo base_url("sportsMeetController/viewHome"); ?>><span
-                                    class="info-box-icon bg-green "><i class="fa fa-hacker-news "></i></span></a>
+                                    class="info-box-icon bg-green "><i class="fa fa-bitcoin "></i></span></a>
 
                             <div class="info-box-content">
                                 <span class="info-box-text"></span>
