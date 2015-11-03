@@ -123,12 +123,18 @@ class Budget extends CI_Controller {
 		// Show submitted data on view page again.
 		if($state)
 		{
+				$data["EventName"]=" ";
+			$data["EventID"]=" ";
+			$data["President"]=" ";
 			
 			$data["status"]=1;
 			$this->load->view("Budget/AddBudget", $data);
 		}
 		else
 		{
+				$data["EventName"]=" ";
+			$data["EventID"]=" ";
+			$data["President"]=" ";
 			$data["status"]=0;
 			$this->load->view('Budget/AddBudget',$data);
 		}

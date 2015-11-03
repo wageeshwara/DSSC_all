@@ -19,7 +19,7 @@
 
                 <section class="col-lg-7 connectedSortable">
                     <div class="info-box">
-                        <a href="<?php echo base_url('index.php/SportsMeetController/houses')?>"><span class="info-box-icon bg-light-blue-active"><i class="ion ion-ios-people-outline"></i></span></a>
+                        <a href="<?php echo base_url('index.php/sportsMeetController/houses')?>"><span class="info-box-icon bg-light-blue-active"><i class="ion ion-ios-people-outline"></i></span></a>
 
                         <div class="info-box-content">
                             <span class="info-box-text"></span>
@@ -31,7 +31,7 @@
                 </section>
                 <section class="col-lg-7 connectedSortable">
                     <div class="info-box">
-                        <a href="<?php echo base_url('index.php/SportsMeetController/housesMeththa')?>"><span class="info-box-icon bg-light-blue-active"><i class="ion ion-ios-people-outline"></i></span></a>
+                        <a href="<?php echo base_url('index.php/sportsMeetController/housesMeththa')?>"><span class="info-box-icon bg-light-blue-active"><i class="ion ion-ios-people-outline"></i></span></a>
 
                         <div class="info-box-content">
                             <span class="info-box-text"></span>
@@ -43,7 +43,7 @@
                 </section>
                 <section class="col-lg-7 connectedSortable">
                     <div class="info-box">
-                        <a href="<?php echo base_url('index.php/SportsMeetController/housesWeera')?>"><span class="info-box-icon bg-light-blue-active"><i class="ion ion-ios-people-outline"></i></span></a>
+                        <a href="<?php echo base_url('index.php/sportsMeetController/housesWeera')?>"><span class="info-box-icon bg-light-blue-active"><i class="ion ion-ios-people-outline"></i></span></a>
 
                         <div class="info-box-content">
                             <span class="info-box-text"></span>
@@ -55,7 +55,7 @@
                 </section>
                 <section class="col-lg-7 connectedSortable">
                     <div class="info-box">
-                        <a href="<?php echo base_url('index.php/SportsMeetController/housesShantha')?>"><span class="info-box-icon bg-light-blue-active"><i class="ion ion-ios-people-outline"></i></span></a>
+                        <a href="<?php echo base_url('index.php/sportsMeetController/housesShantha')?>"><span class="info-box-icon bg-light-blue-active"><i class="ion ion-ios-people-outline"></i></span></a>
 
                         <div class="info-box-content">
                             <span class="info-box-text"></span>
@@ -67,7 +67,7 @@
                 </section>
                 <section class="col-lg-7 connectedSortable">
                     <div class="info-box">
-                        <a href="<?php echo base_url('index.php/SportsMeetController/ViewSearch')?>"><span class="info-box-icon bg-light-blue-active"><i class="ion ion-ios-people-outline"></i></span></a>
+                        <a href="<?php echo base_url('index.php/sportsMeetController/ViewSearch')?>"><span class="info-box-icon bg-light-blue-active"><i class="ion ion-ios-people-outline"></i></span></a>
 
                         <div class="info-box-content">
                             <span class="info-box-text"></span>

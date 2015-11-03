@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title><?php echo $title ?></title>
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <!-- Bootstrap 3.3.2 -->
-    <link href="<?php echo base_url();?>bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+   <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+     <link href="<?php echo base_url();?>bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- FontAwesome 4.3.0 -->
     <link href="<?php echo base_url();?>bootstrap/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <!-- Ionicons 2.0.0 -->
@@ -18,7 +17,7 @@
     <!-- iCheck -->
     <link href="<?php echo base_url();?>bootstrap/plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
     <!-- Morris chart -->
-<!--    <link href="--><?php //echo base_url();?><!--bootstrap/plugins/morris/morris.css" rel="stylesheet" type="text/css" />-->
+    <!--    <link href="--><?php //echo base_url();?><!--bootstrap/plugins/morris/morris.css" rel="stylesheet" type="text/css" />-->
     <!-- jvectormap -->
     <link href="<?php echo base_url();?>bootstrap/plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
     <!-- Date Picker -->
@@ -30,12 +29,13 @@
 
     <link rel="stylesheet" href="<?php echo base_url()?>bootstrap/plugins/datatables/dataTables.bootstrap.css"/>
 
-
-    <link rel="stylesheet" href="<?php echo base_url();?>bootstrap/jquery-ui-themes-1.11.4/themes/smoothness/jquery-ui.css">
-    <!-- jQuery 2.1.3 -->
-    <script src="<?php echo base_url();?>bootstrap/plugins/jQuery/jQuery-2.1.3.min.js"></script>
-<!--    <script src="--><?php //echo base_url();?><!--bootstrap/plugins/jQuery/jquery-1.10.2.js"></script>-->
+<link rel="stylesheet" href="<?php echo base_url();?>bootstrap/jquery-ui-themes-1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="<?php echo base_url();?>bootstrap/plugins/jQuery/jquery-1.10.2.js"></script>
     <script src="<?php echo base_url();?>bootstrap/jquery-ui-1.11.4/jquery-ui.js"></script>
+
+   
+    
+	
 <!--    <link rel="stylesheet" href="--><?php //echo base_url();?><!--resources/demos/style.css">-->
 
 

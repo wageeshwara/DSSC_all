@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-sm-12" >
                     <br>  <br>  <br>
-                    <form action="<?=base_url('index.php/SportsMeetController/search'); ?>" method="get" >
+                    <form action="<?=base_url('index.php/sportsMeetController/search'); ?>" method="get" >
                         <div class="col-sm-1" ></div>
                         <div class="col-sm-4" >
                         <input type="number" name="date" value="" class="form-control "  ></div>

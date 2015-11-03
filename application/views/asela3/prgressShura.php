@@ -4,7 +4,7 @@
 
         <?php $a="deletePanelShura"?>
 
-        <form action="<?=base_url('index.php/SportsMeetController/$a');?>" method="get">
+        <form action="<?=base_url('index.php/sportsMeetController/$a');?>" method="get">
 
             <?php
 

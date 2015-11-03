@@ -9,7 +9,7 @@
 
         <br>
 
-            <form action="<?=base_url('index.php/Controller_sport/get_SID_data_to_table'); ?>" method="post" >
+            <form action="<?=base_url('index.php/controller_sport/get_SID_data_to_table'); ?>" method="post" >
                 <div class="col-sm-4">
                 <select class="form-control" name="drpSport5" id="drp" onclick="pay()" >
                     <option value="4">Cricket</option>
@@ -68,7 +68,7 @@
     </section>
 
             <div class="container">
-                <form action="<?=base_url('index.php/Controller_sport/get_balance_data_to_table'); ?>" method="post" >
+                <form action="<?=base_url('index.php/controller_sport/get_balance_data_to_table'); ?>" method="post" >
                     <div class="col-sm-6">
                         <br>
                         <label >Students Liable For Payments:</label>
@@ -78,7 +78,7 @@
 
 
 
-                <form action="<?=base_url('index.php/Controller_sport/get_data_to_table'); ?>" method="post" >
+                <form action="<?=base_url('index.php/controller_sport/get_data_to_table'); ?>" method="post" >
                     <div class="col-sm-6">
                         <br>
                         <label>View All Registered Students:</label>

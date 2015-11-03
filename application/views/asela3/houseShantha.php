@@ -58,7 +58,7 @@
                 <section class="col-lg-7 connectedSortable">
                     <div class="info-box">
                         <?php $houseID=4; ?>
-                        <a href="<?php echo base_url('index.php/SportsMeetController/shuraProgressFill?houseID=').$houseID; ?>"><span class="info-box-icon bg-light-blue-active"><i class="fa fa-edit"></i></span></a>
+                        <a href="<?php echo base_url('index.php/sportsMeetController/shuraProgressFill?houseID=').$houseID; ?>"><span class="info-box-icon bg-light-blue-active"><i class="fa fa-edit"></i></span></a>
                         <div class="info-box-content">
                             <span class="info-box-text"></span>
                             <span class="info-box-number">Progress</span>
@@ -71,7 +71,7 @@
                 <section class="col-lg-7 connectedSortable">
                     <div class="info-box">
                         <?php $houseID=4; ?>
-                        <a href="<?php echo base_url('index.php/SportsMeetController/report?houseID=').$houseID; ?>"><span class="info-box-icon bg-light-blue-active"><i class="fa fa-edit"></i></span></a>
+                        <a href="<?php echo base_url('index.php/sportsMeetController/report?houseID=').$houseID; ?>"><span class="info-box-icon bg-light-blue-active"><i class="fa fa-edit"></i></span></a>
 
                         <div class="info-box-content">
                             <span class="info-box-text"></span>

@@ -3,7 +3,7 @@
     <section class="sidebar">
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
-            <li class="header">Accept Sport</li>
+             <li class="header">Accept Sport</li>
             <li>
                 <a href="<?php echo base_url('index.php/AcceptControllers/viewHome')?>">
                     <i class="fa fa-list"></i>

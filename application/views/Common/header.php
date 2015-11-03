@@ -72,7 +72,7 @@
             </div>
         </nav>
     </header>
-    <!-- Left side column. contains the logo and sidebar -->
+<!-- Left side column. contains the logo and sidebar -->
 <aside class="main-sidebar"> 
   <!-- sidebar: style can be found in sidebar.less -->
   <section class="sidebar"> 
@@ -91,7 +91,7 @@
       </li>
       <li class="treeview"> <a href="#"> <i class="fa fa-files-o"></i> <span>Budget</span> <i class="fa fa-angle-left pull-right"></i> </a>
         <ul class="treeview-menu">
-         <li><a href="<?php echo site_url('Budget/AddBudget/') ?>"><i class="fa fa-circle-o"></i>Add Budget</a></li>
+         
          <li><a href="<?php echo site_url('Budget/ApproveBudget/') ?>"><i class="fa fa-circle-o"></i>Principal Approval</a></li>
           <li><a href="<?php echo site_url('Budget/UpdateBudget/') ?>"><i class="fa fa-circle-o"></i> Update Budget</a></li>
           <li><a href="<?php echo site_url('Budget/BudgetReport/') ?>"><i class="fa fa-circle-o"></i>Budget Report</a></li>

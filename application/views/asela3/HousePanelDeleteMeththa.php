@@ -7,7 +7,7 @@
         </h1>
 
 
-        <form action="<?=base_url('index.php/SportsMeetController/deletePanelMeththa');?>" method="get">
+        <form action="<?=base_url('index.php/sportsMeetController/deletePanelMeththa');?>" method="get">
 
             <?php
 
@@ -675,7 +675,7 @@
             var oTable = $('#president-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);
@@ -702,7 +702,7 @@
             var oTable = $('#wpresident-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);
@@ -729,7 +729,7 @@
             var oTable = $('#secretary-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);
@@ -756,7 +756,7 @@
             var oTable = $('#wsecretary-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);
@@ -783,7 +783,7 @@
             var oTable = $('#treasurer-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);
@@ -810,7 +810,7 @@
             var oTable = $('#wtreasurer-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);
@@ -837,7 +837,7 @@
             var oTable = $('#pm1-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);
@@ -864,7 +864,7 @@
             var oTable = $('#pm2-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);
@@ -891,7 +891,7 @@
             var oTable = $('#pm3-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);
@@ -918,7 +918,7 @@
             var oTable = $('#pm4-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);
@@ -945,7 +945,7 @@
             var oTable = $('#pm5-table').dataTable();  //Initialize the datatable
             oTable.fnClearTable();
             $.ajax({
-                url: '<?= site_url('SportsMeetController/GetSelectStudent'); ?>',
+                url: '<?= site_url('sportsMeetController/GetSelectStudent'); ?>',
                 dataType: 'json',
                 success: function (s) {
 //                    console.log(s);

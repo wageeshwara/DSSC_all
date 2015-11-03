@@ -66,7 +66,7 @@ echo form_open('Budget/data_submitted');
 			'class' => 'form-control',
 			'required'=>'required',
 			'value'=>$EventName,
-			'Disabled'=>true
+			'readonly'=>true
 			); 
 			echo form_input($data);?>
             
@@ -115,7 +115,7 @@ echo form_open('Budget/data_submitted');
 			'class' => 'form-control',
 			'required'=>'required',
 			'value'=>$President,
-			'Disabled'=>true
+			'readonly'=>true
 			
 			); 
 			echo form_input($data);?>

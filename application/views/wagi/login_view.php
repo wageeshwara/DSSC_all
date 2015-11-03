@@ -54,6 +54,7 @@
         </form>
 
         <a href="#">I forgot my password</a><br>
+        <a href="register.html" class="text-center">Register a new membership</a>
         <?php if (isset($error)): ?>
             <div class="row">
                 <div class="box-body">

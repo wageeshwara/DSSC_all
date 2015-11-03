@@ -37,14 +37,7 @@
 
                             </tbody>
                             <tfoot>
-                            <tr>
-                                <th>Leave ID no</th>
-                                <th>User ID no</th>
-                                <th>Signature ID no</th>
-                                <th>Leave Type</th>
-                                <th>Description</th>
-                                <th></th>
-                            </tr>
+                           
                             </tfoot>
                         </table>
                     </div>
@@ -114,8 +107,8 @@
                 var json = $.parseJSON(rdata);
 
                 if (json.isSuccessful) {
-                    $('#successMessage').html(json.message);
-                    $('#conn').modal('hide');
+                    
+                    $('#conn').modal('toggle');
                     tableLoad();
                 } else {
                     $('#errorMessage').html(json.message);

@@ -21,7 +21,7 @@
                 </br></br></br>
                 <section class="col-lg-7 connectedSortable">
                     <div class="info-box">
-                        <a href="<?php echo base_url('sites/view_emergency_MakeSearchIndex') ?>"><span class="info-box-icon bg-red"><i class="fa fa-search"></i></span></a>
+                        <a href="<?php echo base_url('sites/view_emergency_MakeSearchIndex') ?>"><span class="info-box-icon bg-red"><i class="fa fa-star-o"></i></span></a>
 
                         <div class="info-box-content">
                             <span class="info-box-text"></span>
@@ -37,7 +37,7 @@
 
                     </br></br></br>
                     <div class="info-box">
-                        <a href="<?php echo base_url('sites/view_emergency_MakeSearchName') ?>"><span class="info-box-icon bg-yellow"><i class="fa fa-user"></i></span></a>
+                        <a href="<?php echo base_url('sites/view_emergency_MakeSearchName') ?>"><span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span></a>
 
                         <div class="info-box-content">
                             <span class="info-box-text"></span>
@@ -50,7 +50,7 @@
                 <section class="col-lg-7 connectedSortable">
                     </br></br></br>
                     <div class="info-box">
-                        <a href="<?php echo base_url('sites/view_emergency_MakeSearchGrade') ?>"><span class="info-box-icon bg-blue"><i class="fa fa-search-plus"></i></span></a>
+                        <a href="<?php echo base_url('sites/view_emergency_MakeSearchGrade') ?>"><span class="info-box-icon bg-blue"><i class="fa fa-edit"></i></span></a>
 
                         <div class="info-box-content">
                             <span class="info-box-text"></span>

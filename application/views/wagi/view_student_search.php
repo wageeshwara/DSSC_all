@@ -17,7 +17,7 @@
             <div class="col-lg-12">
                 <div class="box box-primary ">
                     <div class="box-header">
-                        <h3 class="box-title">Enter Student Marks</h3>
+                        <h3 class="box-title">Search Student Marks</h3>
                     </div>
                     <div class="box-footer text-black">
                         <div class="row">

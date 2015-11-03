@@ -102,14 +102,6 @@ class AcceptControllers extends CI_Controller
     }
 
 
-    public function viewHome(){
-        $data['title']='DSSC Management';
-        $this->load->view('asela2/style_Resources/header',$data);
-        $this->load->view('asela2/style_Resources/menu');
-        $this->load->view('asela2/AcceptHome');
-        $this->load->view('asela2/style_Resources/footer');
-    }
-
     public function uptable() //get data to the table
     {
         $data['result'] = $this->acceptmodel->getAll();
@@ -143,6 +135,14 @@ class AcceptControllers extends CI_Controller
         $data['houseID'] = $this->input->get('houseID', TRUE);
         $this->acceptmodel->reject($data);
         $this->viewComment2($data);
+    }
+	
+	 public function viewHome(){
+        $data['title']='DSSC Management';
+        $this->load->view('asela2/style_Resources/header',$data);
+        $this->load->view('asela2/style_Resources/menu');
+        $this->load->view('asela2/AcceptHome');
+        $this->load->view('asela2/style_Resources/footer');
     }
 
     /*take house id and Accept house request*/

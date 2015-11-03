@@ -12,8 +12,11 @@
 </div><!-- ./wrapper -->
 
 
+<!-- jQuery 2.1.3 -->
+<script src="<?php echo base_url();?>bootstrap/plugins/jQuery/jQuery-2.1.3.min.js"></script>
 <!-- jQuery UI 1.11.2 -->
 <script src="<?php echo base_url();?>bootstrap/jquery-ui-1.11.2/jquery-ui.min.js" type="text/javascript"></script>
+
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
     $.widget.bridge('uibutton', $.ui.button);

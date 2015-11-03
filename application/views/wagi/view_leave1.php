@@ -16,7 +16,7 @@
                 <?php if($this->session->userdata('role')=="l") {?>
                 <section class="col-lg-6 connectedSortable">
                     <div class="info-box">
-                        <a href=<?php echo base_url("site/viewMaLeave");?>><span class="info-box-icon bg-blue"><i class="fa fa-edit"></i></span></a>
+                        <a href=<?php echo base_url("site/viewMaLeave");?>><span class="info-box-icon bg-red"><i class="fa fa-edit"></i></span></a>
 
                         <div class="info-box-content">
                             <span class="info-box-text"></span>
@@ -91,7 +91,7 @@
                 </section>
                 <section class="col-lg-6 connectedSortable">
                     <div class="info-box">
-                        <a href=<?php echo base_url("site/printing");?>><span class="info-box-icon bg-yellow-active"><i class="fa fa-file-text-o"></i></span></a>
+                        <a href=<?php echo base_url("site/printing");?>><span class="info-box-icon bg-purple"><i class="fa fa-file-text-o"></i></span></a>
                         <div class="info-box-content">
                             <span class="info-box-text"></span>
                             <span class="info-box-number">Daily Report</span>

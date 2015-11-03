@@ -68,7 +68,7 @@ class Controller_table extends CI_Controller
         $this->load->view('asela/view_dailyReport');
         $this->load->view('asela/style_Resources/footer');
     }
-
+	
 
     //////////////////////////////////////////////////////////////////
 

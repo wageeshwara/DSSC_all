@@ -10,7 +10,7 @@
                     <span>Home</span>
                 </a>
             </li>
-            <li>
+            <li class="active">
                 <a href="<?php echo base_url('sites/view_nonAcc_MakeRegistration');?>">
                     <i class="fa fa-edit"></i>
                     <span>Make a Non Academic Staff Registration</span>

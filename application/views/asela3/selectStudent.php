@@ -10,7 +10,7 @@
         <br>
         <!--search-->
         <div class="col-sm-4">
-            <form action="<?=base_url('index.php/SportsMeetController/GetSelectStudent'); ?>" method="post" >
+            <form action="<?=base_url('index.php/sportsMeetController/GetSelectStudent'); ?>" method="post" >
                 <div class="input-group">
                     <input  type="number" class="form-control" placeholder="Search Signature Number" name="search2">
                     <div class="input-group-btn">
@@ -50,7 +50,7 @@
                         <td><?=$ind=$result['address']; ?></td>
                         <td><?=$ind=$result['parent']; ?></td>
                         <td><?=$ind=$result['phone']; ?></td>
-                        <td><a href="<?php echo base_url('index.php/SportsMeetController/upPresent?name=').$result['name']; ?>"><button type="button"  class="btn btn-primary">Select</button></a></td>
+                        <td><a href="<?php echo base_url('index.php/sportsMeetController/upPresent?name=').$result['name']; ?>"><button type="button"  class="btn btn-primary">Select</button></a></td>
 
                     </tr>
                 <?php endforeach; ?>
